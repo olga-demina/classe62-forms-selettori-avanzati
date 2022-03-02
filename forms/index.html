@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <form action="/contact/email">
+        <div>
+            <!-- Nel for del lable si scrive id dell'input -->
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" id="cognome" placeholder="Nome">
+        </div>
+
+        <!-- checkbox -->
+        <div>
+            <label for="privacy">Privacy</label>
+            <input type="checkbox" name="privacy" id="privacy" required>
+        </div>
+
+        <select name="opzioni" id="opzioni">
+            <option value="1">opzione 1</option>
+            <option value="2">opzione 2</option>
+            <option value="3" selected>opzione 3</option>
+            <option value="4">opzione 4</option>
+        </select>
+
+        <button type="submit">Invia</button>
+
+    </form>
+    
+</body>
+</html>
